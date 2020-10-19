@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(0deg, rgba(242,242,242,1) 60%, rgba(86,125,159,1) 60%);
+  background-position: top;
+  margin-left: 
+}
+
+.phones {
+  float:left;
+  margin-bottom: 50px;
+}
+#section1 {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+label {
+  background: rgb(74,122,164);
+  background: linear-gradient(0deg, rgba(74,122,164,1) 2%, rgba(75,124,167,1) 12%, rgba(83,143,196,1) 100%);
+  display:flex;
+  font-weight: bolder;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  border: 0.2px solid #06365f;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+button {
+  color: white;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: 3px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.brand-and-homebutton {
+  margin-left: 10px;
+  margin-top: 25px;
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  align-items: center;;
+}
+
+.brand-and-text {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin
+}
+.text {
+  width: 590px;
+  border-radius: 8px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-left:60px;
+  padding-right:40px;
+  margin-left: 30px;
+}
+.brand {
+  margin-left: 30px;
+}
+.stores{
+  margin-left: 85px;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.apple {
+  margin-right: 20px;
+}
+h1 {
+  font-size: 30px;
+  color: #06365f;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+footer {
+  margin-right: 350px;
+  margin-left: 350px;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bolder;
 }
